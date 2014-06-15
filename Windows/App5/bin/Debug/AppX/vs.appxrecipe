@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VISHNU</Machine>
+    <WindowsUser>Vishnu</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>EFDD23F2A7938D5B33B1A496E97CAEABA99CDEF67067698023B5937F3DB382AD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fa73767c-675f-45b3-a12a-a28925cf5960_1.0.0.0_neutral__9h4q7qvwr1r6y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fa73767c-675f-45b3-a12a-a28925cf5960_9h4q7qvwr1r6y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fa73767c-675f-45b3-a12a-a28925cf5960</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Vishnu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-15T16:07:55.036</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\App5.exe">
+      <PackagePath>App5.exe</PackagePath>
+      <Modified>2014-06-15T16:54:43.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\App5.pdb">
+      <PackagePath>App5.pdb</PackagePath>
+      <Modified>2014-06-15T16:54:43.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T15:12:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T15:12:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T15:12:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T15:12:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-06-15T14:43:33.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T10:49:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-06-15T16:49:44.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-06-15T16:07:54.055</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
