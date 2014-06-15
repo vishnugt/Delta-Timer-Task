@@ -29,7 +29,11 @@ namespace App5
         public MainPage()
         {
             this.InitializeComponent();
-            
+            System.Windows.Threading.DispatcherTimer newTimer = new System.Windows.Threading.DispatcherTimer();
+            newTimer.Interval = TimeSpan.FromSeconds(1);
+            newTimer.Tick += OnTimerTick;
+            newTimer.Start();
+
         }
 
         /// <summary>
@@ -42,10 +46,6 @@ namespace App5
             
         }
 
-        public static async Task anotherthread() 
-        {
-            
-        }
         double sysmilli, sysseconds, sysminute;
 
         Stopwatch sw = new Stopwatch();
@@ -54,6 +54,10 @@ namespace App5
 
             
             sw.Start();
+        }
+        void OnTimerTick(Object sender, EventArgs args)
+        {
+            //clock.Text = DateTime.Now.ToString();
         }
         private void pausebtn_Click(object sender, RoutedEventArgs e)
         {
@@ -87,7 +91,7 @@ namespace App5
             minblock.Text = "0";
             secblock.Text = "00";
             milliblock.Text = "000";
-            resultstore = " Lap Number  " + (++lapno) + "   " + mintemp + " :" + sectemp + "  :" + millitemp + "\n\n";
+            resultstore = " Lap Number  " + (++lapno) + "   " + mintemp + " :" + sectemp + "  :" + millitemp + "\n";
             listView1.Items.Add(resultstore);
         }
 
