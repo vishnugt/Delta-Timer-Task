@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\App5.exe">
       <PackagePath>App5.exe</PackagePath>
-      <Modified>2014-06-15T16:54:43.264</Modified>
+      <Modified>2014-06-15T17:33:11.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\App5.pdb">
       <PackagePath>App5.pdb</PackagePath>
-      <Modified>2014-06-15T16:54:43.251</Modified>
+      <Modified>2014-06-15T17:33:11.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2014-06-15T16:49:44.329</Modified>
+      <Modified>2014-06-15T17:33:11.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vishnu\Documents\Visual Studio 2012\Projects\App5\App5\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

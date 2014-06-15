@@ -17,6 +17,7 @@
         <Button x:Name="pausebtn" Content="Pause" HorizontalAlignment="Left" Margin="638,254,0,0" VerticalAlignment="Top" Height="77" Width="216" FontSize="36" Click="pausebtn_Click"/>
         <Button x:Name="resetbtn" Content="Reset" HorizontalAlignment="Left" Height="77" Margin="1121,254,0,0" VerticalAlignment="Top" Width="235" FontSize="36" Click="resetbtn_Click"/>
         <TextBlock x:Name="resultblock" HorizontalAlignment="Left" Margin="119,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="395" Width="507" FontSize="20"/>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="368" Margin="119,363,0,0" VerticalAlignment="Top" Width="735"/>
 
     </Grid>
 </Page>

@@ -51,6 +51,7 @@ namespace App5
         Stopwatch sw = new Stopwatch();
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             
             sw.Start();
         }
@@ -86,9 +87,8 @@ namespace App5
             minblock.Text = "0";
             secblock.Text = "00";
             milliblock.Text = "000";
-            resultstore += " Lap Number  " + (++lapno) + "   " + mintemp + " :" + sectemp + "  :" + millitemp + "\n\n";
-            resultblock.Text = resultstore;
-
+            resultstore = " Lap Number  " + (++lapno) + "   " + mintemp + " :" + sectemp + "  :" + millitemp + "\n\n";
+            listView1.Items.Add(resultstore);
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
